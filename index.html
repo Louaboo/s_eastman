@@ -1,0 +1,155 @@
+<!doctype html>
+<!--Sydney_Eastman's Website-->
+<html>
+ <head>
+   <title>Home</title>
+   <style>
+   ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+       background-color: #DC143C;
+   }
+
+   li {
+       float: left;
+   }
+
+   li a, .dropbtn {
+       display: inline-block;
+       color: white;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+   }
+
+   li a:hover, .dropdown:hover .dropbtn {
+       background-color: black;
+   }
+
+   li.dropdown {
+       display: inline-block;
+   }
+
+   .dropdown-content {
+       display: none;
+       position: absolute;
+       background-color: #f9f9f9;
+       min-width: 160px;
+       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+       z-index: 1;
+   }
+
+   .dropdown-content a {
+       color: black;
+       padding: 12px 16px;
+       text-decoration: none;
+       display: block;
+       text-align: left;
+       letter-spacing: 2px;
+   }
+
+   .dropdown-content a:hover {background-color: #f1f1f1}
+
+   .dropdown:hover .dropdown-content {
+       display: block;
+   }
+
+   body {
+     padding: inherit;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-color: darkgray;
+    }
+
+    h1{
+      text-align: center;
+      color: gray;
+      color:  #9370DB;
+      word-spacing: 10px;
+      background-color: pink;
+    }
+    p {
+      font-family: cursive;
+      font-size: 25px;
+    }
+    footer{
+     font-family: 'Sofia';font-size: 22px;
+    }
+div {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  -webkit-animation-name: example;
+  -webkit-animation-duration: 4s;
+  animation-iteration-count: infinite;
+  space-top: 30px;
+  }
+  @-webkit-keyframes example{
+    from {background-color: black;}
+    to {background-color: pink;}
+  }
+  table, th, td {
+    border: 3px solid pink;
+  }
+   </style>
+<body>
+   <ul>
+     <li><a href="index.html">Home</a></li>
+     <li><a href="quotes.html">Quotes</a></li>
+     <li><a href="aboutme.html">About Me</a></li>
+     <li class="dropdown">
+       <a href="#" class="dropbtn">Dropdown</a>
+       <div class="dropdown-content">
+         <a href="eastman.html">Hiya</a>
+         <a href="chap2.html">hey</a>
+         <a href="page4.html">#4</a>
+       </div>
+     </li>
+   </ul>
+   <div></div>
+   <h1>WELCOME!</h1>
+   <p id="rcorners6"><a href="button.html"><em>!!!!!</em></a></p>
+<p>I love Hello Kitty.</p>
+   <button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+ Date and Time</button>
+<p id="demo"></p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_M2Ew5w0lWs?rel=0" frameborder="0" allowfullscreen></iframe>
+<table style="width:61%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Age</th>
+    <th>Favorite Color</th>
+    <th>Favorite Teacher</th>
+ </tr>
+ <tr>
+   <td>Tyler</td>
+   <td>Stone</td>
+   <td>18</td>
+   <td> lime green</td>
+   <td>Mr. Tracy</td>
+</tr>
+<tr>
+  <td>Dylan</td>
+  <td>Eastes</td>
+  <td>16</td>
+  <td>blood of my enemies</td>
+  <td>Mrs. Brooks</td>
+</tr>
+<tr>
+  <td>Amanda</td>
+  <td>Flores</td>
+  <td>16</td>
+  <td>green</td>
+  <td>Mrs. Long</td>
+</tr>
+</table>
+<img src="pictures/me.png" width="413" height="413" usemap="memap">
+<map name="memap">
+  <area shape="rect" coords="0,0,1920,2560" href="pictures/me.png">
+</map>
+</body>
+</html>
